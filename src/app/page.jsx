@@ -167,11 +167,7 @@ export default async function LandingPage() {
               alt="R&D Lab 1"
               borderRadius="md"
               objectFit="cover"
-              mb={2}
             />
-            <Text fontSize="sm" color="white.600">
-              Our state-of-the-art R&D lab.
-            </Text>
           </Box>
           <Box>
             <Image
@@ -181,9 +177,6 @@ export default async function LandingPage() {
               objectFit="cover"
               mb={2}
             />
-            <Text fontSize="sm" color="white.600">
-              In-house cultivation research and testing.
-            </Text>
           </Box>
           <Box>
             <Image
@@ -193,9 +186,6 @@ export default async function LandingPage() {
               objectFit="cover"
               mb={2}
             />
-            <Text fontSize="sm" color="white.600">
-              Our production lines ensuring top-quality mushrooms.
-            </Text>
           </Box>
         </SimpleGrid>
 
@@ -283,15 +273,12 @@ export default async function LandingPage() {
         <SimpleGrid columns={[1, 2, 3]} spacing={6}>
           <Box>
             <Image src="/images/research1.jpg" alt="Research Lab" borderRadius="md" mb={2} />
-            <Text fontSize="sm" color="white.600">Developing new mushroom-based products.</Text>
           </Box>
           <Box>
             <Image src="/images/research2.jpg" alt="Lab Work" borderRadius="md" mb={2} />
-            <Text fontSize="sm" color="white.600">Testing the nutritional benefits of mushrooms.</Text>
           </Box>
           <Box>
             <Image src="/images/research3.jpg" alt="Sustainability" borderRadius="md" mb={2} />
-            <Text fontSize="sm" color="white.600">Exploring eco-friendly uses of fungi.</Text>
           </Box>
         </SimpleGrid>
 
@@ -355,18 +342,12 @@ export default async function LandingPage() {
           Interested in partnerships, bulk orders, or learning more?
           Reach out to us directly for any inquiries.
         </Text>
-        <Text>
-          Email: <strong>info@mushterra.com</strong>
-        </Text>
-        <Text>
-          Phone: <strong>+1 (555) 123-4567</strong>
-        </Text>
 
         {/* Contact Buttons */}
         <Flex mt={6} justify="center" gap={4}>
           <Button
             as="a"
-            href="https://wa.me/15551234567"
+            href="https://wa.me/628118753010"
             target="_blank"
             colorScheme="green"
             size="lg"
@@ -375,28 +356,19 @@ export default async function LandingPage() {
           </Button>
           <Button
             as="a"
-            href="https://www.tokopedia.com/mushterra"
+            href="https://www.tokopedia.com/mush4all"
             target="_blank"
             colorScheme="blue"
             size="lg"
           >
             Tokopedia
           </Button>
-          <Button
-            as="a"
-            href="https://shopee.com/mushterra"
-            target="_blank"
-            colorScheme="orange"
-            size="lg"
-          >
-            Shopee
-          </Button>
         </Flex>
 
         {/* Address */}
         <Box mt={8} textAlign="center">
           <Text fontSize="lg" fontWeight="bold">Our Address:</Text>
-          <Text>123 Mushroom Street, Fungi City, FC 45678</Text>
+          <Text href="https://maps.app.goo.gl/CLP1k7WSKGcWFp8H7" colorScheme="blue">Jl. Ke Surnagalih, Kp. Limus Nunggal, Desa No.03, RT.02/RW.02/03, Sukaresmi</Text>
           <Text>Indonesia</Text>
         </Box>
       </Box >
